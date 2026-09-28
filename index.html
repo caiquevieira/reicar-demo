@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ReiCar — Centro Automotivo e Estética Automotiva | Jaguaré</title>
+  <meta name="description" content="Oficina mecânica, auto peças e estética automotiva na Av. Corifeu de Azevedo Marques, Jaguaré. Peça seu orçamento pelo WhatsApp.">
+  <link rel="canonical" href="https://{{DOMINIO}}/">
+  <meta name="theme-color" content="#1b1512">
+  <!-- DEMO:INICIO -->
+  <meta name="robots" content="noindex,nofollow">
+  <!-- DEMO:FIM -->
+
+  <link rel="icon" href="assets/icons/favicon.ico" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=Work+Sans:wght@400;500;600&display=swap">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="ReiCar — Centro Automotivo e Estética Automotiva">
+  <meta property="og:title" content="ReiCar — Centro Automotivo e Estética Automotiva | Jaguaré">
+  <meta property="og:description" content="Oficina mecânica, auto peças e estética automotiva na Av. Corifeu de Azevedo Marques, Jaguaré. Peça seu orçamento pelo WhatsApp.">
+  <meta property="og:url" content="https://{{DOMINIO}}/">
+  <meta property="og:image" content="https://{{DOMINIO}}/assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <link rel="stylesheet" href="assets/css/styles.css?v=202609281405">
+  <script src="assets/js/main.js?v=202609281405" defer></script>
+
+  <!-- Ajustar @type e os horários conforme o briefing (dias sem expediente: remover o bloco) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutoRepair",
+    "name": "ReiCar — Centro Automotivo e Estética Automotiva",
+    "url": "https://{{DOMINIO}}/",
+    "image": "https://{{DOMINIO}}/assets/img/og-image.jpg",
+    "logo": "https://{{DOMINIO}}/assets/img/logo.webp",
+    "telephone": "+5511953900832",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. Corifeu de Azevedo Marques, 5012",
+      "addressLocality": "São Paulo",
+      "addressRegion": "SP",
+      "postalCode": "05340-002",
+      "addressCountry": "BR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -23.555229,
+      "longitude": -46.750918
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "08:00",
+        "closes": "13:00"
+      }
+    ],
+    "sameAs": ["https://www.instagram.com/reicarcorifeu/", "https://maps.app.goo.gl/FFrNMs4Cc8Y4RZu5A"]
+  }
+  </script>
+</head>
+<body id="topo" class="bg-fundo text-texto font-corpo antialiased">
+  <a href="#conteudo" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[70] focus:bg-fundo focus:px-4 focus:py-2 focus:rounded-marca">Pular para o conteúdo</a>
+
+<!-- SECTION: header -->
+<header class="sticky top-0 z-40 border-b border-texto/10 bg-fundo/95 backdrop-blur">
+  <div class="container-lp flex h-16 items-center justify-between gap-4 md:h-20">
+    <a href="#topo" class="flex shrink-0 items-center" aria-label="ReiCar, voltar ao início">
+      <img src="assets/img/logo.webp" alt="ReiCar — Centro Automotivo e Estética Automotiva" width="800" height="428" class="h-10 w-auto md:h-12">
+    </a>
+
+    <!-- Itens com data-secao somem sozinhos quando a seção é omitida no novo-projeto.ps1 -->
+    <nav aria-label="Principal" class="hidden lg:block">
+      <ul class="flex items-center gap-8 text-sm font-medium">
+        <li data-secao="servicos"><a href="#servicos" class="hover:text-marca">Serviços</a></li>
+        <li data-secao="estetica"><a href="#estetica" class="hover:text-marca">Estética</a></li>
+        <li data-secao="sobre"><a href="#sobre" class="hover:text-marca">Sobre</a></li>
+        <li data-secao="galeria"><a href="#galeria" class="hover:text-marca">Galeria</a></li>
+        <li data-secao="depoimentos"><a href="#depoimentos" class="hover:text-marca">Depoimentos</a></li>
+        <li data-secao="localizacao"><a href="#localizacao" class="hover:text-marca">Como chegar</a></li>
+      </ul>
+    </nav>
+
+    <div class="flex items-center gap-1 sm:gap-2">
+      <a href="https://www.instagram.com/reicarcorifeu/" target="_blank" rel="noopener" class="icone-btn"
+         aria-label="Instagram da ReiCar" data-track="instagram" data-origem="header">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+      </a>
+      <a href="https://wa.me/5511953900832?text=Ol%C3%A1!%20Vi%20o%20site%20da%20ReiCar%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
+         target="_blank" rel="noopener"
+         class="btn btn-whatsapp" aria-label="Orçamento pelo WhatsApp" data-track="whatsapp" data-origem="header">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+        <span class="hidden sm:inline">Orçamento</span>
+      </a>
+    </div>
+  </div>
+</header>
+<!-- /SECTION: header -->
+
+<main id="conteudo">
+<!-- SECTION: hero -->
+<!-- Foto de Instagram usada por decisão explícita do operador em 2026-09-28 (briefing.md, seção 9),
+     exceção à regra padrão do Passo 0 por falta de foto original disponível. -->
+<section id="inicio" aria-labelledby="hero-titulo">
+  <div class="container-lp grid gap-10 py-12 md:py-20 lg:grid-cols-2 lg:items-center lg:gap-16">
+    <div>
+      <h1 id="hero-titulo" class="font-titulo text-4xl leading-tight text-balance md:text-5xl lg:text-6xl">Mecânica, peças e estética automotiva num só endereço em&nbsp;Jaguaré.</h1>
+      <p class="mt-5 max-w-prose text-lg text-pretty text-texto-suave">Orçamento transparente, prazo cumprido e o carro tratado como prioridade. Nota 4,7 no Google, com mais de 100&nbsp;avaliações.</p>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a href="https://wa.me/5511953900832?text=Ol%C3%A1!%20Vi%20o%20site%20da%20ReiCar%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
+           target="_blank" rel="noopener"
+           class="btn btn-whatsapp btn-lg" data-track="whatsapp" data-origem="hero">Pedir orçamento pelo WhatsApp</a>
+        <a href="#servicos" class="btn btn-contorno btn-lg">Ver serviços</a>
+      </div>
+      <p class="mt-6 text-sm text-texto-suave">Jaguaré, São Paulo. Seg a sex, 8h às 18h; sáb, 8h às 13h.</p>
+    </div>
+
+    <img src="assets/img/hero-1600.webp"
+         srcset="assets/img/hero-800.webp 800w, assets/img/hero-1600.webp 1600w"
+         sizes="(min-width: 1024px) 50vw, 100vw"
+         width="1600" height="1200"
+         alt="Mini Cooper preto no box de estética automotiva da ReiCar, com a placa REI CAR em destaque"
+         fetchpriority="high"
+         class="corte-diagonal aspect-[4/3] w-full object-cover object-[center_75%]">
+  </div>
+</section>
+<!-- /SECTION: hero -->
+
+<!-- SECTION: servicos -->
+<!-- 3 frentes com o mesmo peso visual (briefing.md, seção 7): mecânica/pneus, auto peças, estética/lavagem. -->
+<section id="servicos" class="bg-superficie py-16 md:py-24" aria-labelledby="servicos-titulo">
+  <div class="container-lp">
+    <h2 id="servicos-titulo" class="font-titulo text-3xl text-balance md:text-4xl">Tudo para o seu carro, num só&nbsp;endereço</h2>
+    <p class="mt-4 max-w-prose text-pretty text-texto-suave">Mecânica, peças e estética automotiva sob o mesmo teto, na Av. Corifeu de Azevedo Marques. Escolha a frente que você precisa e fale direto com a gente pelo&nbsp;WhatsApp.</p>
+
+    <ul class="mt-12 grid gap-x-10 gap-y-12 md:grid-cols-2 lg:grid-cols-3">
+      <li class="flex flex-col border-t-2 border-marca pt-6">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-marca" aria-hidden="true"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+        <h3 class="mt-4 text-xl text-balance font-semibold">Mecânica e&nbsp;pneus</h3>
+        <p class="mt-2 text-pretty text-texto-suave">Resolvido no mesmo endereço, com orçamento antes de qualquer&nbsp;serviço.</p>
+        <ul class="mt-4 grow content-start flex flex-wrap gap-2" aria-label="Serviços de mecânica e pneus">
+          <li class="rounded-marca border border-marca/40 px-2.5 py-1 text-sm text-texto-suave">Balanceamento</li>
+          <li class="rounded-marca border border-marca/40 px-2.5 py-1 text-sm text-texto-suave">Alinhamento</li>
+          <li class="rounded-marca border border-marca/40 px-2.5 py-1 text-sm text-texto-suave">Troca de óleo</li>
+          <li class="rounded-marca border border-marca/40 px-2.5 py-1 text-sm text-texto-suave">Mecânica em geral</li>
+          <li class="rounded-marca border border-marca/40 px-2.5 py-1 text-sm text-texto-suave">Pneus</li>
+          <li class="rounded-marca border border-marca/40 px-2.5 py-1 text-sm text-texto-suave">Rodas</li>
+        </ul>
+        <a href="https://wa.me/5511953900832?text=Ol%C3%A1!%20Vi%20o%20site%20da%20ReiCar%20e%20preciso%20de%20um%20or%C3%A7amento%20de%20mec%C3%A2nica%20ou%20pneus%20para%20o%20meu%20carro."
+           target="_blank" rel="noopener"
+           class="mt-5 self-start font-semibold text-marca underline decoration-2 underline-offset-4 hover:text-marca-escura"
+           data-track="whatsapp" data-origem="servico-mecanica">Perguntar sobre mecânica e pneus</a>
+      </li>
+      <li class="flex flex-col border-t-2 border-marca pt-6">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-marca" aria-hidden="true"><path d="M16.5 9.4 7.5 4.21"/><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><path d="m3.27 6.96 8.73 5.05 8.73-5.05"/><path d="M12 22.08V12"/></svg>
+        <h3 class="mt-4 text-xl text-balance font-semibold">Auto&nbsp;peças</h3>
+        <p class="mt-2 text-pretty text-texto-suave">Peças para todos os tipos de&nbsp;carro.</p>
+        <ul class="mt-4 grow content-start flex flex-wrap gap-2" aria-label="Linhas de auto peças">
+          <li class="rounded-marca border border-marca/40 px-2.5 py-1 text-sm text-texto-suave">Óleo e filtro</li>
+          <li class="rounded-marca border border-marca/40 px-2.5 py-1 text-sm text-texto-suave">Freios: disco, pastilha e fluido</li>
+          <li class="rounded-marca border border-marca/40 px-2.5 py-1 text-sm text-texto-suave">Líquido de arrefecimento</li>
+          <li class="rounded-marca border border-marca/40 px-2.5 py-1 text-sm text-texto-suave">Linha de estética veicular</li>
+          <li class="rounded-marca border border-marca/40 px-2.5 py-1 text-sm text-texto-suave">Amortecedor</li>
+          <li class="rounded-marca border border-marca/40 px-2.5 py-1 text-sm text-texto-suave">Embreagem</li>
+          <li class="rounded-marca border border-marca/40 px-2.5 py-1 text-sm text-texto-suave">Velas</li>
+          <li class="rounded-marca border border-marca/40 px-2.5 py-1 text-sm text-texto-suave">Cabos</li>
+          <li class="rounded-marca border border-marca/40 px-2.5 py-1 text-sm text-texto-suave">Baterias</li>
+        </ul>
+        <a href="https://wa.me/5511953900832?text=Ol%C3%A1!%20Vi%20o%20site%20da%20ReiCar%20e%20gostaria%20de%20consultar%20uma%20pe%C3%A7a."
+           target="_blank" rel="noopener"
+           class="mt-5 self-start font-semibold text-marca underline decoration-2 underline-offset-4 hover:text-marca-escura"
+           data-track="whatsapp" data-origem="servico-pecas">Perguntar sobre peças</a>
+      </li>
+      <li class="flex flex-col border-t-2 border-marca pt-6">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-marca" aria-hidden="true"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+        <h3 class="mt-4 text-xl text-balance font-semibold">Estética e&nbsp;lavagem</h3>
+        <p class="mt-2 grow text-pretty text-texto-suave">Lavagem automotiva completa, no box próprio da oficina. Veja como cuidamos do seu&nbsp;carro.</p>
+        <a href="#estetica"
+           class="mt-5 self-start font-semibold text-marca underline decoration-2 underline-offset-4 hover:text-marca-escura">Conhecer a estética automotiva</a>
+      </li>
+    </ul>
+  </div>
+</section>
+<!-- /SECTION: servicos -->
+
+<!-- SECTION: estetica -->
+<!-- Sessão dedicada pedida pelo operador em 2026-09-28: copy e foto próprias, separadas do resumo em "servicos". -->
+<section id="estetica" class="py-16 md:py-24" aria-labelledby="estetica-titulo">
+  <div class="container-lp grid gap-10 lg:grid-cols-2 lg:items-center lg:gap-16">
+    <img src="assets/img/estetica-lavagem.webp" width="698" height="930" alt="Equipe da ReiCar lavando um Jeep Compass à mão, com atenção aos detalhes"
+         loading="lazy" decoding="async" class="aspect-[3/4] w-full rounded-marca object-cover">
+    <div>
+      <h2 id="estetica-titulo" class="font-titulo text-3xl text-balance md:text-4xl">Um box dedicado à estética do seu&nbsp;carro</h2>
+      <p class="mt-5 max-w-prose text-lg text-pretty text-texto-suave">O mesmo cuidado da mecânica vale pro acabamento: lavagem automotiva feita à mão, com atenção a cada detalhe — do capô ao&nbsp;teto.</p>
+      <p class="mt-4 max-w-prose text-pretty text-texto-suave">A lista de tratamentos está crescendo. Pergunte pelo WhatsApp o que seu carro precisa e a equipe confirma na&nbsp;hora.</p>
+      <a href="https://wa.me/5511953900832?text=Ol%C3%A1!%20Vi%20o%20site%20da%20ReiCar%20e%20gostaria%20de%20um%20or%C3%A7amento%20de%20est%C3%A9tica%20ou%20lavagem."
+         target="_blank" rel="noopener"
+         class="btn btn-whatsapp btn-lg mt-8" data-track="whatsapp" data-origem="estetica">Pedir orçamento de estética</a>
+    </div>
+  </div>
+</section>
+<!-- /SECTION: estetica -->
+
+<!-- SECTION: sobre -->
+<section id="sobre" class="bg-superficie py-16 md:py-24" aria-labelledby="sobre-titulo">
+  <div class="container-lp grid gap-10 lg:grid-cols-2 lg:items-center lg:gap-16">
+    <img src="assets/img/sala-espera.webp" width="1200" height="1584" alt="Sala de espera da ReiCar com poltronas, ar-condicionado, TV, café e água"
+         loading="lazy" decoding="async" class="aspect-[3/4] w-full rounded-marca object-cover">
+    <div>
+      <h2 id="sobre-titulo" class="font-titulo text-3xl text-balance md:text-4xl">Tudo o que seu carro precisa, no mesmo&nbsp;endereço</h2>
+      <p class="mt-5 max-w-prose text-lg text-pretty text-texto-suave">A ReiCar reúne mecânica, auto peças e estética automotiva num só lugar, na Av. Corifeu de Azevedo Marques. Menos deslocamento, mais controle sobre o que está sendo feito no seu carro — com orçamento fechado antes de qualquer&nbsp;serviço.</p>
+      <ul class="mt-8 space-y-3">
+        <li class="flex gap-3"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="mt-0.5 shrink-0 text-marca" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span class="text-pretty">Mecânica, peças e estética no mesmo&nbsp;endereço</span></li>
+        <li class="flex gap-3"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="mt-0.5 shrink-0 text-marca" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span class="text-pretty">Orçamento sem surpresa, prazo cumprido e valor justo — como dizem os clientes no&nbsp;Google</span></li>
+        <li class="flex gap-3"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="mt-0.5 shrink-0 text-marca" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span class="text-pretty">Sala de espera com ar-condicionado, TV, café e água enquanto o carro é&nbsp;atendido</span></li>
+        <li class="flex gap-3"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="mt-0.5 shrink-0 text-marca" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span class="text-pretty">Nota 4,7 no Google, com mais de 100&nbsp;avaliações</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- /SECTION: sobre -->
+
+<!-- SECTION: galeria -->
+<!-- Fotos de Instagram do próprio cliente (origem registrada em briefing.md, seção 9). -->
+<section id="galeria" class="py-16 md:py-24" aria-labelledby="galeria-titulo">
+  <div class="container-lp">
+    <h2 id="galeria-titulo" class="font-titulo text-3xl text-balance md:text-4xl">Conheça a&nbsp;oficina</h2>
+    <p class="mt-4 max-w-prose text-pretty text-texto-suave">Fotos reais da ReiCar: bastidores da oficina, carros atendidos e o cuidado no dia a&nbsp;dia.</p>
+
+    <ul class="galeria-trilho mt-10" aria-label="Fotos da oficina">
+      <li>
+        <figure>
+          <img src="assets/img/oficina-escapamentos.webp" width="1200" height="1083" alt="Área de escapamentos e carros em atendimento na oficina da ReiCar"
+               loading="lazy" decoding="async" class="aspect-[4/5] w-full rounded-marca object-cover">
+          <figcaption class="mt-2 text-sm text-pretty text-texto-suave">Estoque de escapamentos e carros em atendimento na&nbsp;oficina.</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="assets/img/oficina-box.webp" width="1200" height="900" alt="Box de lavagem e estética automotiva da ReiCar"
+               loading="lazy" decoding="async" class="aspect-[4/5] w-full rounded-marca object-cover">
+          <figcaption class="mt-2 text-sm text-pretty text-texto-suave">Box de lavagem e estética, preparado para o dia a dia da&nbsp;oficina.</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="assets/img/fusca-conversivel.webp" width="828" height="828" alt="Fusca conversível atendido na oficina da ReiCar"
+               loading="lazy" decoding="async" class="aspect-[4/5] w-full rounded-marca object-cover">
+          <figcaption class="mt-2 text-sm text-pretty text-texto-suave">De clássicos a modelos atuais — a ReiCar atende diferentes tipos de&nbsp;carro.</figcaption>
+        </figure>
+      </li>
+    </ul>
+  </div>
+</section>
+<!-- /SECTION: galeria -->
+
+<!-- SECTION: depoimentos -->
+<!-- Texto extraído do Google sem edição (origem em briefing.md, seção 8).
+     Sem nome/nota/data por avaliação (não coletados): sem estrelas por card, só o selo agregado abaixo do título. -->
+<section id="depoimentos" class="bg-superficie py-16 md:py-24" aria-labelledby="depoimentos-titulo">
+  <div class="container-lp">
+    <h2 id="depoimentos-titulo" class="font-titulo text-3xl text-balance md:text-4xl">O que os clientes dizem no&nbsp;Google</h2>
+    <p class="mt-3 inline-flex items-center gap-2 text-texto-suave">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" class="text-marca" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+      4,7 no Google · mais de 100&nbsp;avaliações
+    </p>
+
+    <ul class="mt-10 grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+      <li>
+        <figure class="flex h-full flex-col">
+          <blockquote class="grow text-lg text-pretty">
+            <p>"Tive uma ótima experiência na Rei Car. Atendimento excelente, equipe muito atenciosa e profissional. O serviço foi realizado com rapidez, qualidade e transparência. Dá pra ver que trabalham com seriedade e respeito ao cliente. Recomendo com certeza!"</p>
+          </blockquote>
+          <figcaption class="mt-4 text-sm text-texto-suave">Avaliação no Google</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure class="flex h-full flex-col">
+          <blockquote class="grow text-lg text-pretty">
+            <p>"Atendimento muito bom e serviço de qualidade. Sempre sendo bem atendido! O prazo foi cumprido, e com valor justo. A equipe competente e de confiança. Recomendo"</p>
+          </blockquote>
+          <figcaption class="mt-4 text-sm text-texto-suave">Avaliação no Google</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure class="flex h-full flex-col">
+          <blockquote class="grow text-lg text-pretty">
+            <p>"Excelente atendimento, levo meu carro sempre lá para fazer manutenção, sempre me atendem bem, meu carro quebrou na rua e fui de guincho, esperaram além do horário para poder receber meu carro, não tinha como arrumar no dia pois era sábado após as 14:00 porém tive onde deixar sem me preocupar. Cobram valor justo e não fica de enrolação, infelizmente as vezes dependem de terceiros (peças e retíficas) o q pode ocasionar contratempo, faz parte, recomendo!"</p>
+          </blockquote>
+          <figcaption class="mt-4 text-sm text-texto-suave">Avaliação no Google</figcaption>
+        </figure>
+      </li>
+    </ul>
+
+    <a href="https://maps.app.goo.gl/FFrNMs4Cc8Y4RZu5A" target="_blank" rel="noopener"
+       class="mt-12 inline-block font-semibold text-marca underline decoration-2 underline-offset-4 hover:text-marca-escura"
+       data-track="avaliar-google" data-origem="depoimentos">Ver todas as avaliações no&nbsp;Google</a>
+  </div>
+</section>
+<!-- /SECTION: depoimentos -->
+
+<!-- SECTION: cta-intermediario -->
+<section class="bg-marca py-14 text-sobre-marca md:py-20" aria-labelledby="cta-meio-titulo">
+  <div class="container-lp flex flex-col items-start gap-6 md:flex-row md:items-center md:justify-between">
+    <div>
+      <h2 id="cta-meio-titulo" class="font-titulo text-3xl text-balance md:text-4xl">Peça seu orçamento sem&nbsp;compromisso</h2>
+      <p class="mt-3 max-w-prose text-pretty opacity-90">Mecânica, peças ou estética — conta pra gente o que seu carro precisa e a equipe responde no&nbsp;WhatsApp.</p>
+    </div>
+    <a href="https://wa.me/5511953900832?text=Ol%C3%A1!%20Vi%20o%20site%20da%20ReiCar%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
+       target="_blank" rel="noopener"
+       class="btn btn-claro btn-lg shrink-0" data-track="whatsapp" data-origem="cta-meio">Pedir orçamento pelo WhatsApp</a>
+  </div>
+</section>
+<!-- /SECTION: cta-intermediario -->
+
+<!-- SECTION: instagram -->
+<section class="bg-superficie py-14 md:py-20" aria-labelledby="instagram-titulo">
+  <div class="container-lp flex flex-col items-start gap-6 md:flex-row md:items-center md:justify-between">
+    <div>
+      <h2 id="instagram-titulo" class="font-titulo text-3xl text-balance md:text-4xl">Acompanhe o dia a dia da&nbsp;oficina</h2>
+      <p class="mt-3 max-w-prose text-pretty text-texto-suave">Bastidores, carros atendidos e novidades da ReiCar no&nbsp;Instagram.</p>
+    </div>
+    <a href="https://www.instagram.com/reicarcorifeu/" target="_blank" rel="noopener" class="btn btn-marca btn-lg shrink-0"
+       data-track="instagram" data-origem="secao-instagram">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+      Siga @reicarcorifeu no Instagram
+    </a>
+  </div>
+</section>
+<!-- /SECTION: instagram -->
+
+<!-- SECTION: localizacao -->
+<!-- Dois elementos distintos e obrigatórios: (a) mapa + endereço + horário + "Como chegar";
+     (b) bloco "Avalie-nos no Google". Embed: Google Maps → Compartilhar → Incorporar um mapa → copiar só a URL do src. -->
+<section id="localizacao" class="py-16 md:py-24" aria-labelledby="localizacao-titulo">
+  <div class="container-lp">
+    <h2 id="localizacao-titulo" class="font-titulo text-3xl text-balance md:text-4xl">Onde estamos</h2>
+
+    <!-- (a) Mapa e informações -->
+    <div class="mt-10 grid gap-8 lg:grid-cols-5">
+      <div class="lg:col-span-2">
+        <address class="not-italic">
+          <p class="text-lg text-pretty font-semibold">ReiCar — Centro Automotivo e Estética Automotiva</p>
+          <p class="mt-1 text-pretty text-texto-suave">Av. Corifeu de Azevedo Marques, 5012 - Vila Lageado, São Paulo - SP, 05340-002</p>
+        </address>
+
+        <h3 class="mt-8 font-semibold">Horário de funcionamento</h3>
+        <dl class="mt-3 grid grid-cols-[auto_1fr] gap-x-6 gap-y-1.5 text-texto-suave">
+          <dt>Segunda a sexta</dt><dd>08:00–18:00</dd>
+          <dt>Sábado</dt><dd>08:00–13:00</dd>
+          <dt>Domingo</dt><dd>Fechado</dd>
+        </dl>
+
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="https://maps.app.goo.gl/FFrNMs4Cc8Y4RZu5A" target="_blank" rel="noopener" class="btn btn-contorno"
+             data-track="como-chegar" data-origem="localizacao">Como chegar</a>
+          <a href="https://wa.me/5511953900832?text=Ol%C3%A1!%20Gostaria%20de%20confirmar%20o%20endere%C3%A7o%20e%20o%20hor%C3%A1rio%20de%20atendimento%20da%20ReiCar."
+             target="_blank" rel="noopener"
+             class="btn btn-whatsapp" data-track="whatsapp" data-origem="localizacao">Falar no WhatsApp</a>
+        </div>
+      </div>
+
+      <!-- Embed provisório a partir das coordenadas reais (briefing.md, seção 2). Trocar pela URL estilizada de
+           Google Maps > Compartilhar > Incorporar um mapa antes da entrega (briefing.md, seção 4). -->
+      <iframe src="https://www.google.com/maps?q=-23.555229,-46.750918&z=16&output=embed"
+              title="Mapa com a localização da ReiCar"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen
+              class="h-80 w-full rounded-marca border-0 lg:col-span-3 lg:h-full lg:min-h-96"></iframe>
+    </div>
+    <!-- Bloco "Avalie-nos no Google" removido: GOOGLE_AVALIACAO_URL não localizado na coleta (briefing.md, seção 1).
+         Reintroduzir se o cliente enviar o link de avaliação. -->
+  </div>
+</section>
+<!-- /SECTION: localizacao -->
+</main>
+
+<!-- SECTION: footer -->
+<footer class="border-t border-texto/10 pt-12 pb-28 text-sm md:pb-10">
+  <div class="container-lp grid gap-10 md:grid-cols-3">
+    <div>
+      <img src="assets/img/logo.webp" alt="ReiCar — Centro Automotivo e Estética Automotiva" width="800" height="428" loading="lazy" class="h-10 w-auto">
+      <address class="mt-4 not-italic text-texto-suave">Av. Corifeu de Azevedo Marques, 5012 - Vila Lageado, São Paulo - SP, 05340-002</address>
+      <p class="mt-2 text-texto-suave">Seg a sex, 8h às 18h; sáb, 8h às 13h</p>
+    </div>
+
+    <div>
+      <h2 class="font-semibold">Contato</h2>
+      <ul class="mt-3 space-y-2">
+        <li><a href="https://wa.me/5511953900832?text=Ol%C3%A1!%20Vi%20o%20site%20da%20ReiCar%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
+               target="_blank" rel="noopener"
+               class="hover:text-marca" data-track="whatsapp" data-origem="footer">WhatsApp (11) 95390-0832</a></li>
+        <li><a href="https://www.instagram.com/reicarcorifeu/" target="_blank" rel="noopener" class="hover:text-marca"
+               data-track="instagram" data-origem="footer">Instagram @reicarcorifeu</a></li>
+        <li><a href="https://maps.app.goo.gl/FFrNMs4Cc8Y4RZu5A" target="_blank" rel="noopener" class="hover:text-marca"
+               data-track="como-chegar" data-origem="footer">Ver no Google Maps</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h2 class="font-semibold">Informações</h2>
+      <ul class="mt-3 space-y-2">
+        <li><a href="politica-de-privacidade.html" class="hover:text-marca">Política de Privacidade</a></li>
+        <li><button type="button" class="hover:text-marca" data-abrir-consentimento>Preferências de cookies</button></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container-lp mt-10 flex flex-col gap-2 border-t border-texto/10 pt-6 text-texto-suave md:flex-row md:justify-between">
+    <p>© 2026 ReiCar. Todos os direitos reservados.</p>
+    <p>Desenvolvido por <a href="https://underlinelab.com.br" target="_blank" rel="noopener" class="font-medium text-texto underline underline-offset-4 hover:text-marca">underlinelab.com.br</a></p>
+  </div>
+</footer>
+<!-- /SECTION: footer -->
+
+<!-- SECTION: whatsapp-flutuante -->
+<a href="https://wa.me/5511953900832?text=Ol%C3%A1!%20Vi%20o%20site%20da%20ReiCar%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
+   target="_blank" rel="noopener"
+   class="wa-flutuante" aria-label="Conversar no WhatsApp" data-track="whatsapp" data-origem="flutuante">
+  <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+</a>
+<!-- /SECTION: whatsapp-flutuante -->
+
+<!-- SECTION: consentimento -->
+<!-- Só aparece quando há ga4Id ou metaPixelId no CONFIG do main.js -->
+<div id="consentimento" class="consentimento" role="region" aria-label="Aviso de cookies" hidden>
+  <div class="container-lp flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+    <p class="max-w-prose text-sm">
+      Usamos cookies para medir as visitas e melhorar o site. O site funciona normalmente se você recusar.
+      <a href="politica-de-privacidade.html" class="underline underline-offset-4">Política de Privacidade</a>
+    </p>
+    <div class="flex shrink-0 gap-3">
+      <button type="button" class="btn btn-contorno" data-consentimento="recusar">Recusar</button>
+      <button type="button" class="btn btn-marca" data-consentimento="aceitar">Aceitar</button>
+    </div>
+  </div>
+</div>
+<!-- /SECTION: consentimento -->
+</body>
+</html>
